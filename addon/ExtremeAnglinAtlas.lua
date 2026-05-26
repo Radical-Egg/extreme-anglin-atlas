@@ -1,6 +1,6 @@
-local _, TackleBox = ...
+local _, ExtremeAnglinAtlas = ...
 
-local DATA = TackleBoxData or { zones = {} }
+local DATA = ExtremeAnglinAtlasData or { zones = {} }
 local FISH_PAGE_SIZE = 16
 local fishPage = 1
 local selectedCategory
@@ -262,7 +262,7 @@ end
 
 local function createFrame()
     -- BackdropTemplate is required for SetBackdrop on Classic clients.
-    frame = CreateFrame("Frame", "TackleBoxFrame", UIParent, "BackdropTemplate")
+    frame = CreateFrame("Frame", "ExtremeAnglinAtlasFrame", UIParent, "BackdropTemplate")
     frame:SetWidth(620)
     frame:SetHeight(540)
     frame:SetPoint("CENTER")
@@ -283,7 +283,7 @@ local function createFrame()
     frame:Hide()
     frame.rows = {}
 
-    createText(frame, "ARTWORK", "GameFontNormalLarge", "Tackle Box", "TOPLEFT", frame, "TOPLEFT", 24, -22)
+    createText(frame, "ARTWORK", "GameFontNormalLarge", "Extreme Anglin' Atlas", "TOPLEFT", frame, "TOPLEFT", 24, -22)
     createText(frame, "ARTWORK", "GameFontNormal", "Region", "TOPLEFT", frame, "TOPLEFT", 28, -58)
     createText(frame, "ARTWORK", "GameFontNormal", "Zone", "TOPLEFT", frame, "TOPLEFT", 310, -58)
 
@@ -292,12 +292,12 @@ local function createFrame()
         frame:Hide()
     end)
 
-    frame.regionDropdown = CreateFrame("Frame", "TackleBoxRegionDropDown", frame, "UIDropDownMenuTemplate")
+    frame.regionDropdown = CreateFrame("Frame", "ExtremeAnglinAtlasRegionDropDown", frame, "UIDropDownMenuTemplate")
     frame.regionDropdown:SetPoint("TOPLEFT", frame, "TOPLEFT", 12, -84)
     UIDropDownMenu_SetWidth(frame.regionDropdown, 230)
     UIDropDownMenu_Initialize(frame.regionDropdown, initializeRegionDropdown)
 
-    frame.zoneDropdown = CreateFrame("Frame", "TackleBoxZoneDropDown", frame, "UIDropDownMenuTemplate")
+    frame.zoneDropdown = CreateFrame("Frame", "ExtremeAnglinAtlasZoneDropDown", frame, "UIDropDownMenuTemplate")
     frame.zoneDropdown:SetPoint("TOPLEFT", frame, "TOPLEFT", 294, -84)
     UIDropDownMenu_SetWidth(frame.zoneDropdown, 230)
     UIDropDownMenu_Initialize(frame.zoneDropdown, initializeZoneDropdown)
@@ -316,7 +316,7 @@ local function createFrame()
     fishNext:SetScript("OnClick", function() changeFishPage(1) end)
 end
 
-function TackleBox.Toggle()
+function ExtremeAnglinAtlas.Toggle()
     if not frame then
         createFrame()
     end
@@ -340,8 +340,8 @@ eventFrame:SetScript("OnEvent", function(_, event)
     end
 end)
 
-SLASH_TACKLEBOX1 = "/tacklebox"
-SLASH_TACKLEBOX2 = "/tb"
-SlashCmdList.TACKLEBOX = function()
-    TackleBox.Toggle()
+SLASH_EXTREMEANGLINATLAS1 = "/extremeanglinatlas"
+SLASH_EXTREMEANGLINATLAS2 = "/eaa"
+SlashCmdList.EXTREMEANGLINATLAS = function()
+    ExtremeAnglinAtlas.Toggle()
 end

@@ -1,6 +1,6 @@
-# Tackle Box
+# Extreme Anglin' Atlas
 
-Tackle Box is a World of Warcraft TBC Classic addon for browsing fishing locations and the fish available in each zone.
+Extreme Anglin' Atlas is a World of Warcraft TBC Classic addon for browsing fishing locations and the fish available in each zone.
 
 Project Structure:
 
@@ -10,7 +10,7 @@ Project Structure:
 - `data/manual/zones/*.out` contains saved zone pages used to backfill zone IDs and regions.
 - `data/generated/fishing_locations_wowwiki.csv` is generated from that source.
 - `data/manual/fishing_entries.csv` is the repeatable manual-entry and correction path.
-- `scripts/tacklebox_data.py` builds CSV-derived runtime data.
+- `scripts/extremeanglinatlas_data.py` builds CSV-derived runtime data.
 - `scripts/grab_a_fish.py` and `scripts/grab_a_zone.py` refresh saved WowWiki page captures.
 - `scripts/package_addon.py` creates the release zip.
 
@@ -55,11 +55,11 @@ The saved `.out` files under `data/manual/` are intentionally source data and sh
 
 ## Addon Runtime
 
-The addon loads `addon/Data/FishingData.lua` before `TackleBox.lua`. Open it in game with:
+The addon loads `addon/Data/FishingData.lua` before `ExtremeAnglinAtlas.lua`. Open it in game with:
 
 ```text
-/tacklebox
-/tb
+/extremeanglinatlas
+/eaa
 ```
 
 ## Packaging
@@ -70,10 +70,14 @@ Build a CurseForge-ready zip with:
 make package
 ```
 
-That creates `dist/TackleBox-<version>.zip` with a top-level `TackleBox/` folder, matching the addon TOC name.
+That creates `dist/ExtremeAnglinAtlas-<version>.zip` with a top-level `ExtremeAnglinAtlas/` folder, matching the addon TOC name.
 
 Run the same checks used by CI with:
 
 ```sh
 make check
 ```
+
+## Release
+
+Publishing a GitHub release runs `.github/workflows/build_and_release.yml`. The workflow builds the addon zip and uploads `dist/*.zip` to the release page.

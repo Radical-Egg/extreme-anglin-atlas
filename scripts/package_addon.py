@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Create a distributable Tackle Box addon zip."""
+"""Create a distributable Extreme Anglin' Atlas addon zip."""
 
 from __future__ import annotations
 
@@ -12,7 +12,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_ADDON_DIR = ROOT / "addon"
 DEFAULT_OUT_DIR = ROOT / "dist"
-PACKAGE_NAME = "TackleBox"
+PACKAGE_NAME = "ExtremeAnglinAtlas"
 EXCLUDED_SUFFIXES = {".json"}
 EXCLUDED_NAMES = {".gitkeep"}
 
