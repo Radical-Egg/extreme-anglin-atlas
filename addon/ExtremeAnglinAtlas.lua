@@ -3,9 +3,15 @@ local _, ExtremeAnglinAtlas = ...
 local DATA = ExtremeAnglinAtlasData or { zones = {} }
 local FISH_PAGE_SIZE = 16
 local fishPage = 1
+local searchMode = "region"
+local searchText = ""
+local selectedFishKey
 local selectedCategory
 local selectedZoneIndex = 1
+local fishIndex
+local fishByKey
 local frame
+local updateModeControls
 
 local DEFAULT_ITEM_ICON = "Interface\\Icons\\INV_Misc_Fish_14"
 local ZONE_CATEGORY_ORDER = {
@@ -17,6 +23,10 @@ local ZONE_CATEGORY_ORDER = {
 
 local function countRows(rows)
     return rows and #rows or 0
+end
+
+local function lowerText(value)
+    return string.lower(value or "")
 end
 
 local function getZone(index)
@@ -73,6 +83,82 @@ local function ensureSelectedZoneForCategory()
     end
 end
 
+local function zoneCategoryOrder(category)
+    for index, orderedCategory in ipairs(ZONE_CATEGORY_ORDER) do
+        if orderedCategory == category then
+            return index
+        end
+    end
+
+    return #ZONE_CATEGORY_ORDER + 1
+end
+
+local function fishKey(fish)
+    if fish.itemId then
+        return "item:" .. fish.itemId
+    end
+
+    return "name:" .. lowerText(fish.itemName)
+end
+
+local function buildFishIndex()
+    if fishIndex then
+        return
+    end
+
+    fishIndex = {}
+    fishByKey = {}
+
+    for zoneIndex, zone in ipairs(DATA.zones or {}) do
+        local seenInZone = {}
+
+        for _, fish in ipairs(zone.fish or {}) do
+            local key = fishKey(fish)
+
+            if not seenInZone[key] then
+                local entry = fishByKey[key]
+
+                if not entry then
+                    entry = {
+                        key = key,
+                        itemId = fish.itemId,
+                        itemName = fish.itemName,
+                        zones = {},
+                    }
+                    fishByKey[key] = entry
+                    table.insert(fishIndex, entry)
+                end
+
+                table.insert(entry.zones, {
+                    zoneIndex = zoneIndex,
+                    zoneName = zone.name,
+                    category = zoneCategory(zone),
+                    minSkill = fish.minSkill,
+                    maxSkill = fish.maxSkill,
+                })
+                seenInZone[key] = true
+            end
+        end
+    end
+
+    for _, entry in ipairs(fishIndex) do
+        table.sort(entry.zones, function(left, right)
+            local leftOrder = zoneCategoryOrder(left.category)
+            local rightOrder = zoneCategoryOrder(right.category)
+
+            if leftOrder ~= rightOrder then
+                return leftOrder < rightOrder
+            end
+
+            return left.zoneName < right.zoneName
+        end)
+    end
+
+    table.sort(fishIndex, function(left, right)
+        return left.itemName < right.itemName
+    end)
+end
+
 local function itemQualityColor(quality)
     local color = ITEM_QUALITY_COLORS and ITEM_QUALITY_COLORS[quality or 1] or nil
 
@@ -93,7 +179,11 @@ local function itemQualityColor(quality)
 end
 
 local function itemDisplayInfo(itemId, itemName)
-    local name, _, quality, _, _, _, _, _, _, texture = GetItemInfo(itemId)
+    local name, quality, texture
+
+    if itemId then
+        name, _, quality, _, _, _, _, _, _, texture = GetItemInfo(itemId)
+    end
 
     return {
         name = name or itemName or ("Item " .. tostring(itemId)),
@@ -114,46 +204,175 @@ local function skillText(fish)
     return "-"
 end
 
-local function updatePagerText()
-    local selectedZone = getSelectedZone()
-    local fishTotal = selectedZone and countRows(selectedZone.fish) or 0
-    local fishPages = math.max(1, math.ceil(fishTotal / FISH_PAGE_SIZE))
+local function updatePagerText(rowTotal)
+    local fishPages = math.max(1, math.ceil(rowTotal / FISH_PAGE_SIZE))
 
     frame.fishPager:SetText(fishPage .. " / " .. fishPages)
 end
 
+local function fishSearchRows()
+    local rows = {}
+    local query = lowerText(searchText)
+
+    buildFishIndex()
+
+    if query == "" then
+        return rows
+    end
+
+    for _, entry in ipairs(fishIndex) do
+        if lowerText(entry.itemName):find(query, 1, true) then
+            table.insert(rows, {
+                kind = "fishResult",
+                fishKey = entry.key,
+                itemId = entry.itemId,
+                itemName = entry.itemName,
+                zoneCount = countRows(entry.zones),
+            })
+        end
+    end
+
+    return rows
+end
+
+local function selectedFishZoneRows()
+    local rows = {}
+
+    buildFishIndex()
+
+    local entry = fishByKey and fishByKey[selectedFishKey] or nil
+    if not entry then
+        return rows
+    end
+
+    for _, zone in ipairs(entry.zones) do
+        table.insert(rows, {
+            kind = "fishZone",
+            zoneIndex = zone.zoneIndex,
+            zoneName = zone.zoneName,
+            category = zone.category,
+            itemId = entry.itemId,
+            itemName = entry.itemName,
+            minSkill = zone.minSkill,
+            maxSkill = zone.maxSkill,
+        })
+    end
+
+    return rows
+end
+
+local function currentZoneRows()
+    local rows = {}
+    local selectedZone = getSelectedZone()
+
+    for _, fish in ipairs((selectedZone and selectedZone.fish) or {}) do
+        table.insert(rows, {
+            kind = "zoneFish",
+            fishKey = fishKey(fish),
+            itemId = fish.itemId,
+            itemName = fish.itemName,
+            minSkill = fish.minSkill,
+            maxSkill = fish.maxSkill,
+        })
+    end
+
+    return rows
+end
+
+local function activeRows()
+    if selectedFishKey then
+        return selectedFishZoneRows()
+    end
+
+    if searchMode == "fish" then
+        return fishSearchRows()
+    end
+
+    return currentZoneRows()
+end
+
 local function updateFishList()
     local selectedZone = getSelectedZone()
-    local fishList = selectedZone and selectedZone.fish or {}
+    local rows = activeRows()
+    local rowTotal = countRows(rows)
     local startIndex = ((fishPage - 1) * FISH_PAGE_SIZE) + 1
 
-    frame.zoneTitle:SetText(selectedZone and selectedZone.name or "No zone selected")
+    if selectedFishKey then
+        local entry = fishByKey and fishByKey[selectedFishKey] or nil
+        frame.zoneTitle:SetFontObject(frame.zoneTitleLargeFont)
+        frame.zoneTitle:SetText(entry and entry.itemName or "Fish not found")
+        frame.rightHeader:SetText("Skill")
+        frame.backButton:Show()
+    elseif searchMode == "fish" then
+        frame.zoneTitle:SetFontObject(frame.zoneTitleSmallFont)
+        frame.zoneTitle:SetText("Search Results")
+        frame.rightHeader:SetText("Zones")
+        frame.backButton:Hide()
+    else
+        frame.zoneTitle:SetFontObject(frame.zoneTitleLargeFont)
+        frame.zoneTitle:SetText(selectedZone and selectedZone.name or "No zone selected")
+        frame.rightHeader:SetText("Skill")
+        frame.backButton:Hide()
+    end
 
     for rowIndex = 1, FISH_PAGE_SIZE do
         local row = frame.rows[rowIndex]
-        local fish = fishList[startIndex + rowIndex - 1]
+        local data = rows[startIndex + rowIndex - 1]
 
-        if fish then
-            local display = itemDisplayInfo(fish.itemId, fish.itemName)
-            row.itemId = fish.itemId
-            row.itemName = fish.itemName
-            row.name:SetText(display.color .. display.name .. "|r")
+        if data then
+            local display = itemDisplayInfo(data.itemId, data.itemName)
+            row.kind = data.kind
+            row.fishKey = data.fishKey
+            row.zoneIndex = data.zoneIndex
+            row.itemId = data.itemId
+            row.itemName = data.itemName
             row.icon:SetTexture(display.texture)
-            row.skill:SetText(skillText(fish))
+
+            if data.kind == "fishResult" then
+                row.name:SetText(display.color .. display.name .. "|r")
+                row.skill:SetText(tostring(data.zoneCount))
+            elseif data.kind == "fishZone" then
+                row.name:SetText(data.zoneName)
+                row.skill:SetText(skillText(data))
+            else
+                row.name:SetText(display.color .. display.name .. "|r")
+                row.skill:SetText(skillText(data))
+            end
+
             row:Show()
         else
+            row.kind = nil
+            row.fishKey = nil
+            row.zoneIndex = nil
             row.itemId = nil
             row.itemName = nil
             row:Hide()
         end
     end
 
-    updatePagerText()
+    if rowTotal == 0 then
+        if selectedFishKey then
+            frame.emptyText:SetText("No zones found")
+        elseif searchMode == "fish" and searchText == "" then
+            frame.emptyText:SetText("Type a fish name")
+        elseif searchMode == "fish" then
+            frame.emptyText:SetText("No fish found")
+        else
+            frame.emptyText:SetText("No fish listed")
+        end
+        frame.emptyText:Show()
+    else
+        frame.emptyText:Hide()
+    end
+
+    updatePagerText(rowTotal)
 end
 
 local function setZone(index)
     selectedZoneIndex = index
     fishPage = 1
+    selectedFishKey = nil
+
     local zone = getSelectedZone()
     selectedCategory = zoneCategory(zone)
 
@@ -168,6 +387,22 @@ local function setZone(index)
     updateFishList()
 end
 
+local function setSearchMode(mode)
+    searchMode = mode
+    selectedFishKey = nil
+    fishPage = 1
+
+    if frame and frame.searchBox then
+        frame.searchBox:ClearFocus()
+    end
+
+    if updateModeControls then
+        updateModeControls()
+    end
+
+    updateFishList()
+end
+
 local function setCategory(category)
     selectedCategory = category
     ensureSelectedZoneForCategory()
@@ -175,9 +410,7 @@ local function setCategory(category)
 end
 
 local function changeFishPage(delta)
-    local selectedZone = getSelectedZone()
-    local fishTotal = selectedZone and countRows(selectedZone.fish) or 0
-    local fishPages = math.max(1, math.ceil(fishTotal / FISH_PAGE_SIZE))
+    local fishPages = math.max(1, math.ceil(countRows(activeRows()) / FISH_PAGE_SIZE))
     fishPage = math.min(fishPages, math.max(1, fishPage + delta))
     updateFishList()
 end
@@ -196,6 +429,37 @@ local function createButton(parent, text, width, height, point, relativeTo, rela
     button:SetPoint(point, relativeTo, relativePoint, x, y)
     button:SetText(text)
     return button
+end
+
+local function setVisible(element, visible)
+    if visible then
+        element:Show()
+    else
+        element:Hide()
+    end
+end
+
+updateModeControls = function()
+    if not frame then
+        return
+    end
+
+    local fishMode = searchMode == "fish"
+
+    setVisible(frame.searchLabel, fishMode)
+    setVisible(frame.searchBox, fishMode)
+    setVisible(frame.regionLabel, not fishMode)
+    setVisible(frame.zoneLabel, not fishMode)
+    setVisible(frame.regionDropdown, not fishMode)
+    setVisible(frame.zoneDropdown, not fishMode)
+
+    if fishMode then
+        frame.regionModeButton:UnlockHighlight()
+        frame.fishModeButton:LockHighlight()
+    else
+        frame.regionModeButton:LockHighlight()
+        frame.fishModeButton:UnlockHighlight()
+    end
 end
 
 local function initializeRegionDropdown()
@@ -232,7 +496,7 @@ local function createFishRow(parent, index)
     local row = CreateFrame("Button", nil, parent)
     row:SetWidth(560)
     row:SetHeight(22)
-    row:SetPoint("TOPLEFT", parent, "TOPLEFT", 28, -152 - ((index - 1) * 22))
+    row:SetPoint("TOPLEFT", parent, "TOPLEFT", 28, -202 - ((index - 1) * 22))
     row:EnableMouse(true)
     row:SetHighlightTexture("Interface\\QuestFrame\\UI-QuestTitleHighlight", "ADD")
 
@@ -243,8 +507,21 @@ local function createFishRow(parent, index)
     row.icon:SetTexCoord(0.08, 0.92, 0.08, 0.92)
 
     row.name = createText(row, "ARTWORK", "GameFontHighlightSmall", "", "LEFT", row.icon, "RIGHT", 8, 0)
+    row.name:SetWidth(430)
+    row.name:SetJustifyH("LEFT")
     row.skill = createText(row, "ARTWORK", "GameFontHighlightSmall", "", "RIGHT", row, "RIGHT", 0, 0)
 
+    row:SetScript("OnClick", function(self)
+        if (self.kind == "fishResult" or self.kind == "zoneFish") and self.fishKey then
+            selectedFishKey = self.fishKey
+            fishPage = 1
+            updateFishList()
+        elseif self.kind == "fishZone" and self.zoneIndex then
+            searchMode = "region"
+            setZone(self.zoneIndex)
+            updateModeControls()
+        end
+    end)
     row:SetScript("OnEnter", function(self)
         if not self.itemId then
             return
@@ -264,9 +541,10 @@ local function createFrame()
     -- BackdropTemplate is required for SetBackdrop on Classic clients.
     frame = CreateFrame("Frame", "ExtremeAnglinAtlasFrame", UIParent, "BackdropTemplate")
     frame:SetWidth(620)
-    frame:SetHeight(540)
+    frame:SetHeight(610)
     frame:SetPoint("CENTER")
     frame:SetFrameStrata("DIALOG")
+    frame:SetToplevel(true)
     frame:SetBackdrop({
         bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background",
         edgeFile = "Interface\\DialogFrame\\UI-DialogBox-Border",
@@ -280,30 +558,78 @@ local function createFrame()
     frame:RegisterForDrag("LeftButton")
     frame:SetScript("OnDragStart", frame.StartMoving)
     frame:SetScript("OnDragStop", frame.StopMovingOrSizing)
+    frame:SetScript("OnHide", function()
+        if frame.searchBox then
+            frame.searchBox:ClearFocus()
+        end
+    end)
     frame:Hide()
     frame.rows = {}
+    table.insert(UISpecialFrames, "ExtremeAnglinAtlasFrame")
 
     createText(frame, "ARTWORK", "GameFontNormalLarge", "Extreme Anglin' Atlas", "TOPLEFT", frame, "TOPLEFT", 24, -22)
-    createText(frame, "ARTWORK", "GameFontNormal", "Region", "TOPLEFT", frame, "TOPLEFT", 28, -58)
-    createText(frame, "ARTWORK", "GameFontNormal", "Zone", "TOPLEFT", frame, "TOPLEFT", 310, -58)
 
     local close = createButton(frame, "Close", 72, 22, "TOPRIGHT", frame, "TOPRIGHT", -22, -20)
     close:SetScript("OnClick", function()
         frame:Hide()
     end)
 
+    frame.regionModeButton = createButton(frame, "By Region", 96, 22, "TOPLEFT", frame, "TOPLEFT", 28, -58)
+    frame.regionModeButton:SetScript("OnClick", function()
+        setSearchMode("region")
+    end)
+    frame.fishModeButton = createButton(frame, "By Fish", 96, 22, "TOPLEFT", frame, "TOPLEFT", 132, -58)
+    frame.fishModeButton:SetScript("OnClick", function()
+        setSearchMode("fish")
+    end)
+
+    frame.searchLabel = createText(frame, "ARTWORK", "GameFontNormalLarge", "Fish Search", "TOPLEFT", frame, "TOPLEFT", 28, -96)
+    frame.searchBox = CreateFrame("EditBox", nil, frame, "InputBoxTemplate")
+    frame.searchBox:SetWidth(488)
+    frame.searchBox:SetHeight(20)
+    frame.searchBox:SetPoint("TOPLEFT", frame, "TOPLEFT", 36, -118)
+    frame.searchBox:SetAutoFocus(false)
+    frame.searchBox:SetScript("OnTextChanged", function(self)
+        searchText = self:GetText() or ""
+        selectedFishKey = nil
+        fishPage = 1
+        updateFishList()
+    end)
+    frame.searchBox:SetScript("OnEnterPressed", function(self)
+        self:ClearFocus()
+    end)
+    frame.searchBox:SetScript("OnEscapePressed", function(self)
+        self:ClearFocus()
+        frame:Hide()
+    end)
+
+    frame.regionLabel = createText(frame, "ARTWORK", "GameFontNormal", "Region", "TOPLEFT", frame, "TOPLEFT", 28, -96)
+    frame.zoneLabel = createText(frame, "ARTWORK", "GameFontNormal", "Zone", "TOPLEFT", frame, "TOPLEFT", 310, -96)
+
     frame.regionDropdown = CreateFrame("Frame", "ExtremeAnglinAtlasRegionDropDown", frame, "UIDropDownMenuTemplate")
-    frame.regionDropdown:SetPoint("TOPLEFT", frame, "TOPLEFT", 12, -84)
+    frame.regionDropdown:SetPoint("TOPLEFT", frame, "TOPLEFT", 12, -122)
     UIDropDownMenu_SetWidth(frame.regionDropdown, 230)
     UIDropDownMenu_Initialize(frame.regionDropdown, initializeRegionDropdown)
 
     frame.zoneDropdown = CreateFrame("Frame", "ExtremeAnglinAtlasZoneDropDown", frame, "UIDropDownMenuTemplate")
-    frame.zoneDropdown:SetPoint("TOPLEFT", frame, "TOPLEFT", 294, -84)
+    frame.zoneDropdown:SetPoint("TOPLEFT", frame, "TOPLEFT", 294, -122)
     UIDropDownMenu_SetWidth(frame.zoneDropdown, 230)
     UIDropDownMenu_Initialize(frame.zoneDropdown, initializeZoneDropdown)
 
-    frame.zoneTitle = createText(frame, "ARTWORK", "GameFontNormalLarge", "", "TOPLEFT", frame, "TOPLEFT", 28, -126)
-    createText(frame, "ARTWORK", "GameFontNormalSmall", "Skill", "TOPRIGHT", frame, "TOPRIGHT", -36, -126)
+    frame.zoneTitle = createText(frame, "ARTWORK", "GameFontNormalLarge", "", "TOPLEFT", frame, "TOPLEFT", 28, -176)
+    frame.zoneTitleLargeFont = _G.GameFontNormalLarge
+    frame.zoneTitleSmallFont = _G.GameFontNormal
+    frame.rightHeader = createText(frame, "ARTWORK", "GameFontNormalSmall", "Skill", "TOPRIGHT", frame, "TOPRIGHT", -36, -176)
+    frame.backButton = createButton(frame, "Back", 60, 22, "TOPRIGHT", frame, "TOPRIGHT", -116, -170)
+    frame.backButton:SetScript("OnClick", function()
+        selectedFishKey = nil
+        fishPage = 1
+        updateFishList()
+    end)
+    frame.backButton:Hide()
+    frame.emptyText = createText(frame, "ARTWORK", "GameFontDisable", "", "TOPLEFT", frame, "TOPLEFT", 28, -206)
+    frame.emptyText:Hide()
+    updateModeControls()
 
     for index = 1, FISH_PAGE_SIZE do
         frame.rows[index] = createFishRow(frame, index)
