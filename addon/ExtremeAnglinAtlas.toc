@@ -1,8 +1,10 @@
 ## Interface: 20505
 ## Title: Extreme Anglin' Atlas
 ## Notes: Fishing locations and fish by zone for TBC Classic.
-## Author: Extreme Anglin' Atlas
+## Author: Egg
 ## Version: 0.1.0
+## X-Category: Professions
+## X-License: MIT
 
 Data/FishingData.lua
 ExtremeAnglinAtlas.lua
