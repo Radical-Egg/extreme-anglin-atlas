@@ -1,0 +1,4735 @@
+{
+  "items": [
+    {
+      "category": "fish",
+      "itemId": 27422,
+      "name": "Barbed Gill Trout"
+    },
+    {
+      "category": "fish",
+      "itemId": 35286,
+      "name": "Bloated Giant Sunfish"
+    },
+    {
+      "category": "fish",
+      "itemId": 33823,
+      "name": "Bloodfin Catfish"
+    },
+    {
+      "category": "fish",
+      "itemId": 33824,
+      "name": "Crescent-Tail Skullfish"
+    },
+    {
+      "category": "fish",
+      "itemId": 13888,
+      "name": "Darkclaw Lobster"
+    },
+    {
+      "category": "fish",
+      "itemId": 12238,
+      "name": "Darkshore Grouper"
+    },
+    {
+      "category": "fish",
+      "itemId": 6522,
+      "name": "Deviate Fish"
+    },
+    {
+      "category": "fish",
+      "itemId": 27441,
+      "name": "Felblood Snapper"
+    },
+    {
+      "category": "fish",
+      "itemId": 27435,
+      "name": "Figluster's Mudfish"
+    },
+    {
+      "category": "fish",
+      "itemId": 6359,
+      "name": "Firefin Snapper"
+    },
+    {
+      "category": "fish",
+      "itemId": 27439,
+      "name": "Furious Crawdad"
+    },
+    {
+      "category": "fish",
+      "itemId": 35285,
+      "name": "Giant Sunfish"
+    },
+    {
+      "category": "fish",
+      "itemId": 27438,
+      "name": "Golden Darter"
+    },
+    {
+      "category": "fish",
+      "itemId": 27437,
+      "name": "Icefin Bluefish"
+    },
+    {
+      "category": "fish",
+      "itemId": 13893,
+      "name": "Large Raw Mightfish"
+    },
+    {
+      "category": "fish",
+      "itemId": 13757,
+      "name": "Lightning Eel"
+    },
+    {
+      "category": "fish",
+      "itemId": 34867,
+      "name": "Monstrous Felblood Snapper"
+    },
+    {
+      "category": "fish",
+      "itemId": 27388,
+      "name": "Mr. Pinchy"
+    },
+    {
+      "category": "fish",
+      "itemId": 6358,
+      "name": "Oily Blackmouth"
+    },
+    {
+      "category": "fish",
+      "itemId": 13890,
+      "name": "Plated Armorfish"
+    },
+    {
+      "category": "fish",
+      "itemId": 6291,
+      "name": "Raw Brilliant Smallfish"
+    },
+    {
+      "category": "fish",
+      "itemId": 6308,
+      "name": "Raw Bristle Whisker Catfish"
+    },
+    {
+      "category": "fish",
+      "itemId": 13754,
+      "name": "Raw Glossy Mightfish"
+    },
+    {
+      "category": "fish",
+      "itemId": 21153,
+      "name": "Raw Greater Sagefish"
+    },
+    {
+      "category": "fish",
+      "itemId": 6317,
+      "name": "Raw Loch Frenzy"
+    },
+    {
+      "category": "fish",
+      "itemId": 6289,
+      "name": "Raw Longjaw Mud Snapper"
+    },
+    {
+      "category": "fish",
+      "itemId": 8365,
+      "name": "Raw Mithril Head Trout"
+    },
+    {
+      "category": "fish",
+      "itemId": 13759,
+      "name": "Raw Nightfin Snapper"
+    },
+    {
+      "category": "fish",
+      "itemId": 6361,
+      "name": "Raw Rainbow Fin Albacore"
+    },
+    {
+      "category": "fish",
+      "itemId": 13758,
+      "name": "Raw Redgill"
+    },
+    {
+      "category": "fish",
+      "itemId": 6362,
+      "name": "Raw Rockscale Cod"
+    },
+    {
+      "category": "fish",
+      "itemId": 21071,
+      "name": "Raw Sagefish"
+    },
+    {
+      "category": "fish",
+      "itemId": 6303,
+      "name": "Raw Slitherskin Mackerel"
+    },
+    {
+      "category": "fish",
+      "itemId": 4603,
+      "name": "Raw Spotted Yellowtail"
+    },
+    {
+      "category": "fish",
+      "itemId": 13756,
+      "name": "Raw Summer Bass"
+    },
+    {
+      "category": "fish",
+      "itemId": 13760,
+      "name": "Raw Sunscale Salmon"
+    },
+    {
+      "category": "fish",
+      "itemId": 13889,
+      "name": "Raw Whitescale Salmon"
+    },
+    {
+      "category": "fish",
+      "itemId": 6299,
+      "name": "Sickly Looking Fish"
+    },
+    {
+      "category": "fish",
+      "itemId": 27425,
+      "name": "Spotted Feltail"
+    },
+    {
+      "category": "fish",
+      "itemId": 13422,
+      "name": "Stonescale Eel"
+    },
+    {
+      "category": "fish",
+      "itemId": 13755,
+      "name": "Winter Squid"
+    },
+    {
+      "category": "fish",
+      "itemId": 27429,
+      "name": "Zangarian Sporefish"
+    },
+    {
+      "category": "fish",
+      "itemId": 19975,
+      "name": "Zulian Mudskunk"
+    }
+  ],
+  "meta": {
+    "generatedFrom": "csv",
+    "schemaVersion": 1
+  },
+  "zones": [
+    {
+      "category": "Eastern Kingdoms",
+      "expansion": "classic",
+      "externalId": 36,
+      "fish": [
+        {
+          "itemId": 6308,
+          "itemName": "Raw Bristle Whisker Catfish",
+          "maxSkill": 225,
+          "minSkill": 130,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6308"
+            }
+          ]
+        },
+        {
+          "itemId": 21153,
+          "itemName": "Raw Greater Sagefish",
+          "maxSkill": 225,
+          "minSkill": 130,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=21153"
+            }
+          ]
+        },
+        {
+          "itemId": 8365,
+          "itemName": "Raw Mithril Head Trout",
+          "maxSkill": 225,
+          "minSkill": 130,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=8365"
+            }
+          ]
+        }
+      ],
+      "id": 1,
+      "name": "Alterac Mountains"
+    },
+    {
+      "category": "Eastern Kingdoms",
+      "expansion": "classic",
+      "externalId": 45,
+      "fish": [
+        {
+          "itemId": 6359,
+          "itemName": "Firefin Snapper",
+          "maxSkill": 225,
+          "minSkill": 130,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6359"
+            }
+          ]
+        },
+        {
+          "itemId": 6358,
+          "itemName": "Oily Blackmouth",
+          "maxSkill": 225,
+          "minSkill": 130,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6358"
+            }
+          ]
+        },
+        {
+          "itemId": 6308,
+          "itemName": "Raw Bristle Whisker Catfish",
+          "maxSkill": 225,
+          "minSkill": 130,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6308"
+            }
+          ]
+        },
+        {
+          "itemId": 8365,
+          "itemName": "Raw Mithril Head Trout",
+          "maxSkill": 225,
+          "minSkill": 130,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=8365"
+            }
+          ]
+        },
+        {
+          "itemId": 6362,
+          "itemName": "Raw Rockscale Cod",
+          "maxSkill": 225,
+          "minSkill": 130,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6362"
+            }
+          ]
+        },
+        {
+          "itemId": 4603,
+          "itemName": "Raw Spotted Yellowtail",
+          "maxSkill": 225,
+          "minSkill": 130,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=4603"
+            }
+          ]
+        }
+      ],
+      "id": 2,
+      "name": "Arathi Highlands"
+    },
+    {
+      "category": "Eastern Kingdoms",
+      "expansion": "classic",
+      "externalId": 46,
+      "fish": [
+        {
+          "itemId": 13757,
+          "itemName": "Lightning Eel",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13757"
+            }
+          ]
+        },
+        {
+          "itemId": 13890,
+          "itemName": "Plated Armorfish",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13890"
+            }
+          ]
+        },
+        {
+          "itemId": 13759,
+          "itemName": "Raw Nightfin Snapper",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13759"
+            }
+          ]
+        },
+        {
+          "itemId": 13758,
+          "itemName": "Raw Redgill",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13758"
+            }
+          ]
+        },
+        {
+          "itemId": 13760,
+          "itemName": "Raw Sunscale Salmon",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13760"
+            }
+          ]
+        },
+        {
+          "itemId": 13889,
+          "itemName": "Raw Whitescale Salmon",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13889"
+            }
+          ]
+        }
+      ],
+      "id": 3,
+      "name": "Burning Steppes"
+    },
+    {
+      "category": "Eastern Kingdoms",
+      "expansion": "classic",
+      "externalId": 41,
+      "fish": [
+        {
+          "itemId": 27422,
+          "itemName": "Barbed Gill Trout",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=27422"
+            }
+          ]
+        },
+        {
+          "itemId": 33823,
+          "itemName": "Bloodfin Catfish",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=33823"
+            }
+          ]
+        },
+        {
+          "itemId": 33824,
+          "itemName": "Crescent-Tail Skullfish",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=33824"
+            }
+          ]
+        },
+        {
+          "itemId": 13757,
+          "itemName": "Lightning Eel",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13757"
+            }
+          ]
+        }
+      ],
+      "id": 4,
+      "name": "Deadwind Pass"
+    },
+    {
+      "category": "Eastern Kingdoms",
+      "expansion": "classic",
+      "externalId": 1,
+      "fish": [
+        {
+          "itemId": 6291,
+          "itemName": "Raw Brilliant Smallfish",
+          "maxSkill": 25,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6291"
+            }
+          ]
+        },
+        {
+          "itemId": 6289,
+          "itemName": "Raw Longjaw Mud Snapper",
+          "maxSkill": 25,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6289"
+            }
+          ]
+        }
+      ],
+      "id": 5,
+      "name": "Dun Morogh"
+    },
+    {
+      "category": "Eastern Kingdoms",
+      "expansion": "classic",
+      "externalId": 10,
+      "fish": [
+        {
+          "itemId": 6308,
+          "itemName": "Raw Bristle Whisker Catfish",
+          "maxSkill": 160,
+          "minSkill": 55,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6308"
+            }
+          ]
+        },
+        {
+          "itemId": 6289,
+          "itemName": "Raw Longjaw Mud Snapper",
+          "maxSkill": 160,
+          "minSkill": 55,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6289"
+            }
+          ]
+        }
+      ],
+      "id": 6,
+      "name": "Duskwood"
+    },
+    {
+      "category": "Eastern Kingdoms",
+      "expansion": "classic",
+      "externalId": 139,
+      "fish": [
+        {
+          "itemId": 13757,
+          "itemName": "Lightning Eel",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13757"
+            }
+          ]
+        },
+        {
+          "itemId": 13890,
+          "itemName": "Plated Armorfish",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13890"
+            }
+          ]
+        },
+        {
+          "itemId": 13759,
+          "itemName": "Raw Nightfin Snapper",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13759"
+            }
+          ]
+        },
+        {
+          "itemId": 13758,
+          "itemName": "Raw Redgill",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13758"
+            }
+          ]
+        },
+        {
+          "itemId": 13760,
+          "itemName": "Raw Sunscale Salmon",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13760"
+            }
+          ]
+        },
+        {
+          "itemId": 13889,
+          "itemName": "Raw Whitescale Salmon",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13889"
+            }
+          ]
+        }
+      ],
+      "id": 7,
+      "name": "Eastern Plaguelands"
+    },
+    {
+      "category": "Eastern Kingdoms",
+      "expansion": "classic",
+      "externalId": 12,
+      "fish": [
+        {
+          "itemId": 6291,
+          "itemName": "Raw Brilliant Smallfish",
+          "maxSkill": 25,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6291"
+            }
+          ]
+        },
+        {
+          "itemId": 6289,
+          "itemName": "Raw Longjaw Mud Snapper",
+          "maxSkill": 25,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6289"
+            }
+          ]
+        }
+      ],
+      "id": 8,
+      "name": "Elwynn Forest"
+    },
+    {
+      "category": "Eastern Kingdoms",
+      "expansion": "classic",
+      "externalId": 3430,
+      "fish": [
+        {
+          "itemId": 6291,
+          "itemName": "Raw Brilliant Smallfish",
+          "maxSkill": 25,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6291"
+            }
+          ]
+        },
+        {
+          "itemId": 6289,
+          "itemName": "Raw Longjaw Mud Snapper",
+          "maxSkill": 25,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6289"
+            }
+          ]
+        },
+        {
+          "itemId": 6303,
+          "itemName": "Raw Slitherskin Mackerel",
+          "maxSkill": 25,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6303"
+            }
+          ]
+        }
+      ],
+      "id": 9,
+      "name": "Eversong Woods"
+    },
+    {
+      "category": "Eastern Kingdoms",
+      "expansion": "classic",
+      "externalId": 3433,
+      "fish": [
+        {
+          "itemId": 6358,
+          "itemName": "Oily Blackmouth",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6358"
+            }
+          ]
+        },
+        {
+          "itemId": 6291,
+          "itemName": "Raw Brilliant Smallfish",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6291"
+            }
+          ]
+        },
+        {
+          "itemId": 6308,
+          "itemName": "Raw Bristle Whisker Catfish",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6308"
+            }
+          ]
+        },
+        {
+          "itemId": 6289,
+          "itemName": "Raw Longjaw Mud Snapper",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6289"
+            }
+          ]
+        },
+        {
+          "itemId": 6361,
+          "itemName": "Raw Rainbow Fin Albacore",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6361"
+            }
+          ]
+        },
+        {
+          "itemId": 6303,
+          "itemName": "Raw Slitherskin Mackerel",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6303"
+            }
+          ]
+        }
+      ],
+      "id": 10,
+      "name": "Ghostlands"
+    },
+    {
+      "category": "Eastern Kingdoms",
+      "expansion": "classic",
+      "externalId": 267,
+      "fish": [
+        {
+          "itemId": 6359,
+          "itemName": "Firefin Snapper",
+          "maxSkill": 150,
+          "minSkill": 55,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6359"
+            }
+          ]
+        },
+        {
+          "itemId": 6358,
+          "itemName": "Oily Blackmouth",
+          "maxSkill": 150,
+          "minSkill": 55,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6358"
+            }
+          ]
+        },
+        {
+          "itemId": 21153,
+          "itemName": "Raw Greater Sagefish",
+          "maxSkill": 150,
+          "minSkill": 55,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=21153"
+            }
+          ]
+        },
+        {
+          "itemId": 21071,
+          "itemName": "Raw Sagefish",
+          "maxSkill": 150,
+          "minSkill": 55,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=21071"
+            }
+          ]
+        }
+      ],
+      "id": 11,
+      "name": "Hillsbrad Foothills"
+    },
+    {
+      "category": "Eastern Kingdoms",
+      "expansion": "classic",
+      "externalId": 1537,
+      "fish": [
+        {
+          "itemId": 6291,
+          "itemName": "Raw Brilliant Smallfish",
+          "maxSkill": 25,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6291"
+            }
+          ]
+        },
+        {
+          "itemId": 6308,
+          "itemName": "Raw Bristle Whisker Catfish",
+          "maxSkill": 25,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6308"
+            }
+          ]
+        },
+        {
+          "itemId": 6289,
+          "itemName": "Raw Longjaw Mud Snapper",
+          "maxSkill": 25,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6289"
+            }
+          ]
+        }
+      ],
+      "id": 12,
+      "name": "Ironforge"
+    },
+    {
+      "category": "Eastern Kingdoms",
+      "expansion": "classic",
+      "externalId": 4080,
+      "fish": [
+        {
+          "itemId": 35286,
+          "itemName": "Bloated Giant Sunfish",
+          "maxSkill": 450,
+          "minSkill": 355,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=35286"
+            }
+          ]
+        },
+        {
+          "itemId": 35285,
+          "itemName": "Giant Sunfish",
+          "maxSkill": 450,
+          "minSkill": 355,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=35285"
+            }
+          ]
+        }
+      ],
+      "id": 13,
+      "name": "Isle of Quel'Danas"
+    },
+    {
+      "category": "Eastern Kingdoms",
+      "expansion": "classic",
+      "externalId": 38,
+      "fish": [
+        {
+          "itemId": 6291,
+          "itemName": "Raw Brilliant Smallfish",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6291"
+            }
+          ]
+        },
+        {
+          "itemId": 6308,
+          "itemName": "Raw Bristle Whisker Catfish",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6308"
+            }
+          ]
+        },
+        {
+          "itemId": 6317,
+          "itemName": "Raw Loch Frenzy",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6317"
+            }
+          ]
+        },
+        {
+          "itemId": 6289,
+          "itemName": "Raw Longjaw Mud Snapper",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6289"
+            }
+          ]
+        },
+        {
+          "itemId": 21071,
+          "itemName": "Raw Sagefish",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=21071"
+            }
+          ]
+        }
+      ],
+      "id": 14,
+      "name": "Loch Modan"
+    },
+    {
+      "category": "Eastern Kingdoms",
+      "expansion": "classic",
+      "externalId": 44,
+      "fish": [
+        {
+          "itemId": 6308,
+          "itemName": "Raw Bristle Whisker Catfish",
+          "maxSkill": 150,
+          "minSkill": 55,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6308"
+            }
+          ]
+        },
+        {
+          "itemId": 6289,
+          "itemName": "Raw Longjaw Mud Snapper",
+          "maxSkill": 150,
+          "minSkill": 55,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6289"
+            }
+          ]
+        }
+      ],
+      "id": 15,
+      "name": "Redridge Mountains"
+    },
+    {
+      "category": "Eastern Kingdoms",
+      "expansion": "classic",
+      "externalId": 6109,
+      "fish": [
+        {
+          "itemId": 6308,
+          "itemName": "Raw Bristle Whisker Catfish",
+          "maxSkill": 225,
+          "minSkill": 130,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6308"
+            }
+          ]
+        },
+        {
+          "itemId": 8365,
+          "itemName": "Raw Mithril Head Trout",
+          "maxSkill": 225,
+          "minSkill": 130,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=8365"
+            }
+          ]
+        }
+      ],
+      "id": 16,
+      "name": "Scarlet Monastery"
+    },
+    {
+      "category": "Eastern Kingdoms",
+      "expansion": "classic",
+      "externalId": 6066,
+      "fish": [
+        {
+          "itemId": 13757,
+          "itemName": "Lightning Eel",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13757"
+            }
+          ]
+        },
+        {
+          "itemId": 13890,
+          "itemName": "Plated Armorfish",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13890"
+            }
+          ]
+        },
+        {
+          "itemId": 13759,
+          "itemName": "Raw Nightfin Snapper",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13759"
+            }
+          ]
+        },
+        {
+          "itemId": 13758,
+          "itemName": "Raw Redgill",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13758"
+            }
+          ]
+        },
+        {
+          "itemId": 13760,
+          "itemName": "Raw Sunscale Salmon",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13760"
+            }
+          ]
+        },
+        {
+          "itemId": 13889,
+          "itemName": "Raw Whitescale Salmon",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13889"
+            }
+          ]
+        }
+      ],
+      "id": 17,
+      "name": "Scholomance"
+    },
+    {
+      "category": "Eastern Kingdoms",
+      "expansion": "classic",
+      "externalId": 130,
+      "fish": [
+        {
+          "itemId": 6358,
+          "itemName": "Oily Blackmouth",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6358"
+            }
+          ]
+        },
+        {
+          "itemId": 6291,
+          "itemName": "Raw Brilliant Smallfish",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6291"
+            }
+          ]
+        },
+        {
+          "itemId": 6308,
+          "itemName": "Raw Bristle Whisker Catfish",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6308"
+            }
+          ]
+        },
+        {
+          "itemId": 6289,
+          "itemName": "Raw Longjaw Mud Snapper",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6289"
+            }
+          ]
+        },
+        {
+          "itemId": 6361,
+          "itemName": "Raw Rainbow Fin Albacore",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6361"
+            }
+          ]
+        },
+        {
+          "itemId": 21071,
+          "itemName": "Raw Sagefish",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=21071"
+            }
+          ]
+        },
+        {
+          "itemId": 6303,
+          "itemName": "Raw Slitherskin Mackerel",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6303"
+            }
+          ]
+        },
+        {
+          "itemId": 6299,
+          "itemName": "Sickly Looking Fish",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6299"
+            }
+          ]
+        }
+      ],
+      "id": 18,
+      "name": "Silverpine Forest"
+    },
+    {
+      "category": "Eastern Kingdoms",
+      "expansion": "classic",
+      "externalId": 1519,
+      "fish": [
+        {
+          "itemId": 6358,
+          "itemName": "Oily Blackmouth",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6358"
+            }
+          ]
+        },
+        {
+          "itemId": 6291,
+          "itemName": "Raw Brilliant Smallfish",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6291"
+            }
+          ]
+        },
+        {
+          "itemId": 6308,
+          "itemName": "Raw Bristle Whisker Catfish",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6308"
+            }
+          ]
+        },
+        {
+          "itemId": 6289,
+          "itemName": "Raw Longjaw Mud Snapper",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6289"
+            }
+          ]
+        },
+        {
+          "itemId": 6361,
+          "itemName": "Raw Rainbow Fin Albacore",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6361"
+            }
+          ]
+        },
+        {
+          "itemId": 6303,
+          "itemName": "Raw Slitherskin Mackerel",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6303"
+            }
+          ]
+        }
+      ],
+      "id": 19,
+      "name": "Stormwind City"
+    },
+    {
+      "category": "Eastern Kingdoms",
+      "expansion": "classic",
+      "externalId": 5339,
+      "fish": [
+        {
+          "itemId": 6359,
+          "itemName": "Firefin Snapper",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6359"
+            }
+          ]
+        },
+        {
+          "itemId": 6358,
+          "itemName": "Oily Blackmouth",
+          "maxSkill": 225,
+          "minSkill": 130,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6358"
+            }
+          ]
+        },
+        {
+          "itemId": 13754,
+          "itemName": "Raw Glossy Mightfish",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13754"
+            }
+          ]
+        },
+        {
+          "itemId": 21153,
+          "itemName": "Raw Greater Sagefish",
+          "maxSkill": 225,
+          "minSkill": 130,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=21153"
+            }
+          ]
+        },
+        {
+          "itemId": 8365,
+          "itemName": "Raw Mithril Head Trout",
+          "maxSkill": 225,
+          "minSkill": 130,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=8365"
+            }
+          ]
+        },
+        {
+          "itemId": 6362,
+          "itemName": "Raw Rockscale Cod",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6362"
+            }
+          ]
+        },
+        {
+          "itemId": 21071,
+          "itemName": "Raw Sagefish",
+          "maxSkill": 225,
+          "minSkill": 130,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=21071"
+            }
+          ]
+        },
+        {
+          "itemId": 4603,
+          "itemName": "Raw Spotted Yellowtail",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=4603"
+            }
+          ]
+        },
+        {
+          "itemId": 13756,
+          "itemName": "Raw Summer Bass",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13756"
+            }
+          ]
+        },
+        {
+          "itemId": 13422,
+          "itemName": "Stonescale Eel",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13422"
+            }
+          ]
+        },
+        {
+          "itemId": 13755,
+          "itemName": "Winter Squid",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13755"
+            }
+          ]
+        }
+      ],
+      "id": 20,
+      "name": "Stranglethorn Vale"
+    },
+    {
+      "category": "Eastern Kingdoms",
+      "expansion": "classic",
+      "externalId": 2017,
+      "fish": [
+        {
+          "itemId": 13757,
+          "itemName": "Lightning Eel",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13757"
+            }
+          ]
+        },
+        {
+          "itemId": 13890,
+          "itemName": "Plated Armorfish",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13890"
+            }
+          ]
+        },
+        {
+          "itemId": 13759,
+          "itemName": "Raw Nightfin Snapper",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13759"
+            }
+          ]
+        },
+        {
+          "itemId": 13758,
+          "itemName": "Raw Redgill",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13758"
+            }
+          ]
+        },
+        {
+          "itemId": 13760,
+          "itemName": "Raw Sunscale Salmon",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13760"
+            }
+          ]
+        },
+        {
+          "itemId": 13889,
+          "itemName": "Raw Whitescale Salmon",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13889"
+            }
+          ]
+        }
+      ],
+      "id": 21,
+      "name": "Stratholme"
+    },
+    {
+      "category": "Eastern Kingdoms",
+      "expansion": "classic",
+      "externalId": 8,
+      "fish": [
+        {
+          "itemId": 6359,
+          "itemName": "Firefin Snapper",
+          "maxSkill": 225,
+          "minSkill": 130,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6359"
+            }
+          ]
+        },
+        {
+          "itemId": 13757,
+          "itemName": "Lightning Eel",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13757"
+            }
+          ]
+        },
+        {
+          "itemId": 6358,
+          "itemName": "Oily Blackmouth",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6358"
+            }
+          ]
+        },
+        {
+          "itemId": 6308,
+          "itemName": "Raw Bristle Whisker Catfish",
+          "maxSkill": 225,
+          "minSkill": 130,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6308"
+            }
+          ]
+        },
+        {
+          "itemId": 8365,
+          "itemName": "Raw Mithril Head Trout",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=8365"
+            }
+          ]
+        },
+        {
+          "itemId": 13759,
+          "itemName": "Raw Nightfin Snapper",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13759"
+            }
+          ]
+        },
+        {
+          "itemId": 13758,
+          "itemName": "Raw Redgill",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13758"
+            }
+          ]
+        },
+        {
+          "itemId": 6362,
+          "itemName": "Raw Rockscale Cod",
+          "maxSkill": 225,
+          "minSkill": 130,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6362"
+            }
+          ]
+        },
+        {
+          "itemId": 4603,
+          "itemName": "Raw Spotted Yellowtail",
+          "maxSkill": 225,
+          "minSkill": 130,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=4603"
+            }
+          ]
+        },
+        {
+          "itemId": 13760,
+          "itemName": "Raw Sunscale Salmon",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13760"
+            }
+          ]
+        }
+      ],
+      "id": 22,
+      "name": "Swamp of Sorrows"
+    },
+    {
+      "category": "Eastern Kingdoms",
+      "expansion": "classic",
+      "externalId": 1581,
+      "fish": [
+        {
+          "itemId": 6291,
+          "itemName": "Raw Brilliant Smallfish",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6291"
+            }
+          ]
+        },
+        {
+          "itemId": 6308,
+          "itemName": "Raw Bristle Whisker Catfish",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6308"
+            }
+          ]
+        },
+        {
+          "itemId": 6289,
+          "itemName": "Raw Longjaw Mud Snapper",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6289"
+            }
+          ]
+        }
+      ],
+      "id": 23,
+      "name": "The Deadmines"
+    },
+    {
+      "category": "Eastern Kingdoms",
+      "expansion": "classic",
+      "externalId": 47,
+      "fish": [
+        {
+          "itemId": 13754,
+          "itemName": "Raw Glossy Mightfish",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13754"
+            }
+          ]
+        },
+        {
+          "itemId": 13759,
+          "itemName": "Raw Nightfin Snapper",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13759"
+            }
+          ]
+        },
+        {
+          "itemId": 13756,
+          "itemName": "Raw Summer Bass",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13756"
+            }
+          ]
+        },
+        {
+          "itemId": 13422,
+          "itemName": "Stonescale Eel",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13422"
+            }
+          ]
+        }
+      ],
+      "id": 24,
+      "name": "The Hinterlands"
+    },
+    {
+      "category": "Eastern Kingdoms",
+      "expansion": "classic",
+      "externalId": 85,
+      "fish": [
+        {
+          "itemId": 6291,
+          "itemName": "Raw Brilliant Smallfish",
+          "maxSkill": 25,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6291"
+            }
+          ]
+        },
+        {
+          "itemId": 6289,
+          "itemName": "Raw Longjaw Mud Snapper",
+          "maxSkill": 25,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6289"
+            }
+          ]
+        },
+        {
+          "itemId": 6299,
+          "itemName": "Sickly Looking Fish",
+          "maxSkill": 25,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6299"
+            }
+          ]
+        }
+      ],
+      "id": 25,
+      "name": "Tirisfal Glade"
+    },
+    {
+      "category": "Eastern Kingdoms",
+      "expansion": "classic",
+      "externalId": 1497,
+      "fish": [
+        {
+          "itemId": 6291,
+          "itemName": "Raw Brilliant Smallfish",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6291"
+            }
+          ]
+        },
+        {
+          "itemId": 6308,
+          "itemName": "Raw Bristle Whisker Catfish",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6308"
+            }
+          ]
+        },
+        {
+          "itemId": 6289,
+          "itemName": "Raw Longjaw Mud Snapper",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6289"
+            }
+          ]
+        },
+        {
+          "itemId": 6299,
+          "itemName": "Sickly Looking Fish",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6299"
+            }
+          ]
+        }
+      ],
+      "id": 26,
+      "name": "Undercity"
+    },
+    {
+      "category": "Eastern Kingdoms",
+      "expansion": "classic",
+      "externalId": 28,
+      "fish": [
+        {
+          "itemId": 13757,
+          "itemName": "Lightning Eel",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13757"
+            }
+          ]
+        },
+        {
+          "itemId": 6358,
+          "itemName": "Oily Blackmouth",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6358"
+            }
+          ]
+        },
+        {
+          "itemId": 8365,
+          "itemName": "Raw Mithril Head Trout",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=8365"
+            }
+          ]
+        },
+        {
+          "itemId": 13759,
+          "itemName": "Raw Nightfin Snapper",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13759"
+            }
+          ]
+        },
+        {
+          "itemId": 13758,
+          "itemName": "Raw Redgill",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13758"
+            }
+          ]
+        },
+        {
+          "itemId": 13760,
+          "itemName": "Raw Sunscale Salmon",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13760"
+            }
+          ]
+        }
+      ],
+      "id": 27,
+      "name": "Western Plaguelands"
+    },
+    {
+      "category": "Eastern Kingdoms",
+      "expansion": "classic",
+      "externalId": 40,
+      "fish": [
+        {
+          "itemId": 6358,
+          "itemName": "Oily Blackmouth",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6358"
+            }
+          ]
+        },
+        {
+          "itemId": 6291,
+          "itemName": "Raw Brilliant Smallfish",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6291"
+            }
+          ]
+        },
+        {
+          "itemId": 6308,
+          "itemName": "Raw Bristle Whisker Catfish",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6308"
+            }
+          ]
+        },
+        {
+          "itemId": 6289,
+          "itemName": "Raw Longjaw Mud Snapper",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6289"
+            }
+          ]
+        },
+        {
+          "itemId": 6361,
+          "itemName": "Raw Rainbow Fin Albacore",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6361"
+            }
+          ]
+        },
+        {
+          "itemId": 6303,
+          "itemName": "Raw Slitherskin Mackerel",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6303"
+            }
+          ]
+        }
+      ],
+      "id": 28,
+      "name": "Westfall"
+    },
+    {
+      "category": "Eastern Kingdoms",
+      "expansion": "classic",
+      "externalId": 11,
+      "fish": [
+        {
+          "itemId": 6359,
+          "itemName": "Firefin Snapper",
+          "maxSkill": 150,
+          "minSkill": 55,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6359"
+            }
+          ]
+        },
+        {
+          "itemId": 6358,
+          "itemName": "Oily Blackmouth",
+          "maxSkill": 150,
+          "minSkill": 55,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6358"
+            }
+          ]
+        },
+        {
+          "itemId": 6308,
+          "itemName": "Raw Bristle Whisker Catfish",
+          "maxSkill": 150,
+          "minSkill": 55,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6308"
+            }
+          ]
+        },
+        {
+          "itemId": 6289,
+          "itemName": "Raw Longjaw Mud Snapper",
+          "maxSkill": 150,
+          "minSkill": 55,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6289"
+            }
+          ]
+        },
+        {
+          "itemId": 6361,
+          "itemName": "Raw Rainbow Fin Albacore",
+          "maxSkill": 150,
+          "minSkill": 55,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6361"
+            }
+          ]
+        },
+        {
+          "itemId": 6303,
+          "itemName": "Raw Slitherskin Mackerel",
+          "maxSkill": 150,
+          "minSkill": 55,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6303"
+            }
+          ]
+        }
+      ],
+      "id": 29,
+      "name": "Wetlands"
+    },
+    {
+      "category": "Eastern Kingdoms",
+      "expansion": "classic",
+      "externalId": 3805,
+      "fish": [
+        {
+          "itemId": 27422,
+          "itemName": "Barbed Gill Trout",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=27422"
+            }
+          ]
+        },
+        {
+          "itemId": 33823,
+          "itemName": "Bloodfin Catfish",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=33823"
+            }
+          ]
+        },
+        {
+          "itemId": 33824,
+          "itemName": "Crescent-Tail Skullfish",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=33824"
+            }
+          ]
+        },
+        {
+          "itemId": 13757,
+          "itemName": "Lightning Eel",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13757"
+            }
+          ]
+        }
+      ],
+      "id": 30,
+      "name": "Zul'Aman"
+    },
+    {
+      "category": "Eastern Kingdoms",
+      "expansion": "classic",
+      "externalId": 1977,
+      "fish": [
+        {
+          "itemId": 13757,
+          "itemName": "Lightning Eel",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13757"
+            }
+          ]
+        },
+        {
+          "itemId": 13890,
+          "itemName": "Plated Armorfish",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13890"
+            }
+          ]
+        },
+        {
+          "itemId": 13759,
+          "itemName": "Raw Nightfin Snapper",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13759"
+            }
+          ]
+        },
+        {
+          "itemId": 13758,
+          "itemName": "Raw Redgill",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13758"
+            }
+          ]
+        },
+        {
+          "itemId": 13760,
+          "itemName": "Raw Sunscale Salmon",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13760"
+            }
+          ]
+        },
+        {
+          "itemId": 13889,
+          "itemName": "Raw Whitescale Salmon",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13889"
+            }
+          ]
+        },
+        {
+          "itemId": 19975,
+          "itemName": "Zulian Mudskunk",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=19975"
+            }
+          ]
+        }
+      ],
+      "id": 31,
+      "name": "Zul'Gurub"
+    },
+    {
+      "category": "Kalimdor",
+      "expansion": "classic",
+      "externalId": 331,
+      "fish": [
+        {
+          "itemId": 6359,
+          "itemName": "Firefin Snapper",
+          "maxSkill": 150,
+          "minSkill": 55,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6359"
+            }
+          ]
+        },
+        {
+          "itemId": 6358,
+          "itemName": "Oily Blackmouth",
+          "maxSkill": 150,
+          "minSkill": 55,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6358"
+            }
+          ]
+        },
+        {
+          "itemId": 6308,
+          "itemName": "Raw Bristle Whisker Catfish",
+          "maxSkill": 150,
+          "minSkill": 55,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6308"
+            }
+          ]
+        },
+        {
+          "itemId": 6289,
+          "itemName": "Raw Longjaw Mud Snapper",
+          "maxSkill": 150,
+          "minSkill": 55,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6289"
+            }
+          ]
+        },
+        {
+          "itemId": 6361,
+          "itemName": "Raw Rainbow Fin Albacore",
+          "maxSkill": 150,
+          "minSkill": 55,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6361"
+            }
+          ]
+        },
+        {
+          "itemId": 21071,
+          "itemName": "Raw Sagefish",
+          "maxSkill": 150,
+          "minSkill": 55,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=21071"
+            }
+          ]
+        }
+      ],
+      "id": 32,
+      "name": "Ashenvale"
+    },
+    {
+      "category": "Kalimdor",
+      "expansion": "classic",
+      "externalId": 16,
+      "fish": [
+        {
+          "itemId": 13888,
+          "itemName": "Darkclaw Lobster",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13888"
+            }
+          ]
+        },
+        {
+          "itemId": 13893,
+          "itemName": "Large Raw Mightfish",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13893"
+            }
+          ]
+        },
+        {
+          "itemId": 13757,
+          "itemName": "Lightning Eel",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13757"
+            }
+          ]
+        },
+        {
+          "itemId": 13754,
+          "itemName": "Raw Glossy Mightfish",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13754"
+            }
+          ]
+        },
+        {
+          "itemId": 8365,
+          "itemName": "Raw Mithril Head Trout",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=8365"
+            }
+          ]
+        },
+        {
+          "itemId": 13759,
+          "itemName": "Raw Nightfin Snapper",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13759"
+            }
+          ]
+        },
+        {
+          "itemId": 13758,
+          "itemName": "Raw Redgill",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13758"
+            }
+          ]
+        },
+        {
+          "itemId": 6362,
+          "itemName": "Raw Rockscale Cod",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6362"
+            }
+          ]
+        },
+        {
+          "itemId": 4603,
+          "itemName": "Raw Spotted Yellowtail",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=4603"
+            }
+          ]
+        },
+        {
+          "itemId": 13756,
+          "itemName": "Raw Summer Bass",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13756"
+            }
+          ]
+        },
+        {
+          "itemId": 13760,
+          "itemName": "Raw Sunscale Salmon",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13760"
+            }
+          ]
+        },
+        {
+          "itemId": 13422,
+          "itemName": "Stonescale Eel",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13422"
+            }
+          ]
+        },
+        {
+          "itemId": 13755,
+          "itemName": "Winter Squid",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13755"
+            }
+          ]
+        }
+      ],
+      "id": 33,
+      "name": "Azshara"
+    },
+    {
+      "category": "Kalimdor",
+      "expansion": "classic",
+      "externalId": 3524,
+      "fish": [
+        {
+          "itemId": 6291,
+          "itemName": "Raw Brilliant Smallfish",
+          "maxSkill": 25,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6291"
+            }
+          ]
+        },
+        {
+          "itemId": 6289,
+          "itemName": "Raw Longjaw Mud Snapper",
+          "maxSkill": 25,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6289"
+            }
+          ]
+        },
+        {
+          "itemId": 6303,
+          "itemName": "Raw Slitherskin Mackerel",
+          "maxSkill": 25,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6303"
+            }
+          ]
+        }
+      ],
+      "id": 34,
+      "name": "Azuremyst Isle"
+    },
+    {
+      "category": "Kalimdor",
+      "expansion": "classic",
+      "externalId": 719,
+      "fish": [
+        {
+          "itemId": 6358,
+          "itemName": "Oily Blackmouth",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6358"
+            }
+          ]
+        },
+        {
+          "itemId": 6291,
+          "itemName": "Raw Brilliant Smallfish",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6291"
+            }
+          ]
+        },
+        {
+          "itemId": 6289,
+          "itemName": "Raw Longjaw Mud Snapper",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6289"
+            }
+          ]
+        },
+        {
+          "itemId": 6299,
+          "itemName": "Sickly Looking Fish",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6299"
+            }
+          ]
+        }
+      ],
+      "id": 35,
+      "name": "Blackfathom Deeps"
+    },
+    {
+      "category": "Kalimdor",
+      "expansion": "classic",
+      "externalId": 3525,
+      "fish": [
+        {
+          "itemId": 6358,
+          "itemName": "Oily Blackmouth",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6358"
+            }
+          ]
+        },
+        {
+          "itemId": 6291,
+          "itemName": "Raw Brilliant Smallfish",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6291"
+            }
+          ]
+        },
+        {
+          "itemId": 6289,
+          "itemName": "Raw Longjaw Mud Snapper",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6289"
+            }
+          ]
+        },
+        {
+          "itemId": 6361,
+          "itemName": "Raw Rainbow Fin Albacore",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6361"
+            }
+          ]
+        },
+        {
+          "itemId": 6303,
+          "itemName": "Raw Slitherskin Mackerel",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6303"
+            }
+          ]
+        }
+      ],
+      "id": 36,
+      "name": "Bloodmyst Isle"
+    },
+    {
+      "category": "Kalimdor",
+      "expansion": "classic",
+      "externalId": 148,
+      "fish": [
+        {
+          "itemId": 12238,
+          "itemName": "Darkshore Grouper",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=12238"
+            }
+          ]
+        },
+        {
+          "itemId": 6358,
+          "itemName": "Oily Blackmouth",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6358"
+            }
+          ]
+        },
+        {
+          "itemId": 6291,
+          "itemName": "Raw Brilliant Smallfish",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6291"
+            }
+          ]
+        },
+        {
+          "itemId": 6308,
+          "itemName": "Raw Bristle Whisker Catfish",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6308"
+            }
+          ]
+        },
+        {
+          "itemId": 6289,
+          "itemName": "Raw Longjaw Mud Snapper",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6289"
+            }
+          ]
+        },
+        {
+          "itemId": 6303,
+          "itemName": "Raw Slitherskin Mackerel",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6303"
+            }
+          ]
+        }
+      ],
+      "id": 37,
+      "name": "Darkshore"
+    },
+    {
+      "category": "Kalimdor",
+      "expansion": "classic",
+      "externalId": 1657,
+      "fish": [
+        {
+          "itemId": 6291,
+          "itemName": "Raw Brilliant Smallfish",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6291"
+            }
+          ]
+        },
+        {
+          "itemId": 6308,
+          "itemName": "Raw Bristle Whisker Catfish",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6308"
+            }
+          ]
+        },
+        {
+          "itemId": 6289,
+          "itemName": "Raw Longjaw Mud Snapper",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6289"
+            }
+          ]
+        }
+      ],
+      "id": 38,
+      "name": "Darnassus"
+    },
+    {
+      "category": "Kalimdor",
+      "expansion": "classic",
+      "externalId": 405,
+      "fish": [
+        {
+          "itemId": 6359,
+          "itemName": "Firefin Snapper",
+          "maxSkill": 225,
+          "minSkill": 130,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6359"
+            }
+          ]
+        },
+        {
+          "itemId": 6358,
+          "itemName": "Oily Blackmouth",
+          "maxSkill": 225,
+          "minSkill": 130,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6358"
+            }
+          ]
+        },
+        {
+          "itemId": 6308,
+          "itemName": "Raw Bristle Whisker Catfish",
+          "maxSkill": 225,
+          "minSkill": 130,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6308"
+            }
+          ]
+        },
+        {
+          "itemId": 8365,
+          "itemName": "Raw Mithril Head Trout",
+          "maxSkill": 225,
+          "minSkill": 130,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=8365"
+            }
+          ]
+        },
+        {
+          "itemId": 6362,
+          "itemName": "Raw Rockscale Cod",
+          "maxSkill": 225,
+          "minSkill": 130,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6362"
+            }
+          ]
+        },
+        {
+          "itemId": 4603,
+          "itemName": "Raw Spotted Yellowtail",
+          "maxSkill": 225,
+          "minSkill": 130,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=4603"
+            }
+          ]
+        }
+      ],
+      "id": 39,
+      "name": "Desolace"
+    },
+    {
+      "category": "Kalimdor",
+      "expansion": "classic",
+      "externalId": 14,
+      "fish": [
+        {
+          "itemId": 6291,
+          "itemName": "Raw Brilliant Smallfish",
+          "maxSkill": 25,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6291"
+            }
+          ]
+        },
+        {
+          "itemId": 6289,
+          "itemName": "Raw Longjaw Mud Snapper",
+          "maxSkill": 25,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6289"
+            }
+          ]
+        },
+        {
+          "itemId": 6303,
+          "itemName": "Raw Slitherskin Mackerel",
+          "maxSkill": 25,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6303"
+            }
+          ]
+        }
+      ],
+      "id": 40,
+      "name": "Durotar"
+    },
+    {
+      "category": "Kalimdor",
+      "expansion": "classic",
+      "externalId": 15,
+      "fish": [
+        {
+          "itemId": 6359,
+          "itemName": "Firefin Snapper",
+          "maxSkill": 225,
+          "minSkill": 130,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6359"
+            }
+          ]
+        },
+        {
+          "itemId": 6358,
+          "itemName": "Oily Blackmouth",
+          "maxSkill": 225,
+          "minSkill": 130,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6358"
+            }
+          ]
+        },
+        {
+          "itemId": 6308,
+          "itemName": "Raw Bristle Whisker Catfish",
+          "maxSkill": 225,
+          "minSkill": 130,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6308"
+            }
+          ]
+        },
+        {
+          "itemId": 8365,
+          "itemName": "Raw Mithril Head Trout",
+          "maxSkill": 225,
+          "minSkill": 130,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=8365"
+            }
+          ]
+        },
+        {
+          "itemId": 6362,
+          "itemName": "Raw Rockscale Cod",
+          "maxSkill": 225,
+          "minSkill": 130,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6362"
+            }
+          ]
+        },
+        {
+          "itemId": 4603,
+          "itemName": "Raw Spotted Yellowtail",
+          "maxSkill": 225,
+          "minSkill": 130,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=4603"
+            }
+          ]
+        }
+      ],
+      "id": 41,
+      "name": "Dustwallow Marsh"
+    },
+    {
+      "category": "Kalimdor",
+      "expansion": "classic",
+      "externalId": 361,
+      "fish": [
+        {
+          "itemId": 13757,
+          "itemName": "Lightning Eel",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13757"
+            }
+          ]
+        },
+        {
+          "itemId": 6358,
+          "itemName": "Oily Blackmouth",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6358"
+            }
+          ]
+        },
+        {
+          "itemId": 8365,
+          "itemName": "Raw Mithril Head Trout",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=8365"
+            }
+          ]
+        },
+        {
+          "itemId": 13759,
+          "itemName": "Raw Nightfin Snapper",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13759"
+            }
+          ]
+        },
+        {
+          "itemId": 13758,
+          "itemName": "Raw Redgill",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13758"
+            }
+          ]
+        },
+        {
+          "itemId": 13760,
+          "itemName": "Raw Sunscale Salmon",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13760"
+            }
+          ]
+        }
+      ],
+      "id": 42,
+      "name": "Felwood"
+    },
+    {
+      "category": "Kalimdor",
+      "expansion": "classic",
+      "externalId": 357,
+      "fish": [
+        {
+          "itemId": 13757,
+          "itemName": "Lightning Eel",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13757"
+            }
+          ]
+        },
+        {
+          "itemId": 6358,
+          "itemName": "Oily Blackmouth",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6358"
+            }
+          ]
+        },
+        {
+          "itemId": 13754,
+          "itemName": "Raw Glossy Mightfish",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13754"
+            }
+          ]
+        },
+        {
+          "itemId": 8365,
+          "itemName": "Raw Mithril Head Trout",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=8365"
+            }
+          ]
+        },
+        {
+          "itemId": 13759,
+          "itemName": "Raw Nightfin Snapper",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13759"
+            }
+          ]
+        },
+        {
+          "itemId": 13758,
+          "itemName": "Raw Redgill",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13758"
+            }
+          ]
+        },
+        {
+          "itemId": 6362,
+          "itemName": "Raw Rockscale Cod",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6362"
+            }
+          ]
+        },
+        {
+          "itemId": 4603,
+          "itemName": "Raw Spotted Yellowtail",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=4603"
+            }
+          ]
+        },
+        {
+          "itemId": 13756,
+          "itemName": "Raw Summer Bass",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13756"
+            }
+          ]
+        },
+        {
+          "itemId": 13760,
+          "itemName": "Raw Sunscale Salmon",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13760"
+            }
+          ]
+        },
+        {
+          "itemId": 13889,
+          "itemName": "Raw Whitescale Salmon",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13889"
+            }
+          ]
+        },
+        {
+          "itemId": 13422,
+          "itemName": "Stonescale Eel",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13422"
+            }
+          ]
+        },
+        {
+          "itemId": 13755,
+          "itemName": "Winter Squid",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13755"
+            }
+          ]
+        }
+      ],
+      "id": 43,
+      "name": "Feralas"
+    },
+    {
+      "category": "Kalimdor",
+      "expansion": "classic",
+      "externalId": 2100,
+      "fish": [
+        {
+          "itemId": 13757,
+          "itemName": "Lightning Eel",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13757"
+            }
+          ]
+        },
+        {
+          "itemId": 6358,
+          "itemName": "Oily Blackmouth",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6358"
+            }
+          ]
+        },
+        {
+          "itemId": 8365,
+          "itemName": "Raw Mithril Head Trout",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=8365"
+            }
+          ]
+        },
+        {
+          "itemId": 13759,
+          "itemName": "Raw Nightfin Snapper",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13759"
+            }
+          ]
+        },
+        {
+          "itemId": 13758,
+          "itemName": "Raw Redgill",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13758"
+            }
+          ]
+        },
+        {
+          "itemId": 13760,
+          "itemName": "Raw Sunscale Salmon",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13760"
+            }
+          ]
+        }
+      ],
+      "id": 44,
+      "name": "Maraudon"
+    },
+    {
+      "category": "Kalimdor",
+      "expansion": "classic",
+      "externalId": 493,
+      "fish": [
+        {
+          "itemId": 13757,
+          "itemName": "Lightning Eel",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13757"
+            }
+          ]
+        },
+        {
+          "itemId": 6358,
+          "itemName": "Oily Blackmouth",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6358"
+            }
+          ]
+        },
+        {
+          "itemId": 8365,
+          "itemName": "Raw Mithril Head Trout",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=8365"
+            }
+          ]
+        },
+        {
+          "itemId": 13759,
+          "itemName": "Raw Nightfin Snapper",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13759"
+            }
+          ]
+        },
+        {
+          "itemId": 13758,
+          "itemName": "Raw Redgill",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13758"
+            }
+          ]
+        },
+        {
+          "itemId": 13760,
+          "itemName": "Raw Sunscale Salmon",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13760"
+            }
+          ]
+        }
+      ],
+      "id": 45,
+      "name": "Moonglade"
+    },
+    {
+      "category": "Kalimdor",
+      "expansion": "classic",
+      "externalId": 215,
+      "fish": [
+        {
+          "itemId": 6291,
+          "itemName": "Raw Brilliant Smallfish",
+          "maxSkill": 25,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6291"
+            }
+          ]
+        },
+        {
+          "itemId": 6289,
+          "itemName": "Raw Longjaw Mud Snapper",
+          "maxSkill": 25,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6289"
+            }
+          ]
+        }
+      ],
+      "id": 46,
+      "name": "Mulgore"
+    },
+    {
+      "category": "Kalimdor",
+      "expansion": "classic",
+      "externalId": 76,
+      "fish": [
+        {
+          "itemId": 6291,
+          "itemName": "Raw Brilliant Smallfish",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6291"
+            }
+          ]
+        },
+        {
+          "itemId": 6308,
+          "itemName": "Raw Bristle Whisker Catfish",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6308"
+            }
+          ]
+        },
+        {
+          "itemId": 6289,
+          "itemName": "Raw Longjaw Mud Snapper",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6289"
+            }
+          ]
+        }
+      ],
+      "id": 47,
+      "name": "Orgrimmar"
+    },
+    {
+      "category": "Kalimdor",
+      "expansion": "classic",
+      "externalId": 1377,
+      "fish": [
+        {
+          "itemId": 13757,
+          "itemName": "Lightning Eel",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13757"
+            }
+          ]
+        },
+        {
+          "itemId": 13890,
+          "itemName": "Plated Armorfish",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13890"
+            }
+          ]
+        },
+        {
+          "itemId": 13759,
+          "itemName": "Raw Nightfin Snapper",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13759"
+            }
+          ]
+        },
+        {
+          "itemId": 13758,
+          "itemName": "Raw Redgill",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13758"
+            }
+          ]
+        },
+        {
+          "itemId": 13760,
+          "itemName": "Raw Sunscale Salmon",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13760"
+            }
+          ]
+        },
+        {
+          "itemId": 13889,
+          "itemName": "Raw Whitescale Salmon",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13889"
+            }
+          ]
+        }
+      ],
+      "id": 48,
+      "name": "Silithus"
+    },
+    {
+      "category": "Kalimdor",
+      "expansion": "classic",
+      "externalId": 406,
+      "fish": [
+        {
+          "itemId": 6359,
+          "itemName": "Firefin Snapper",
+          "maxSkill": 150,
+          "minSkill": 55,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6359"
+            }
+          ]
+        },
+        {
+          "itemId": 6308,
+          "itemName": "Raw Bristle Whisker Catfish",
+          "maxSkill": 150,
+          "minSkill": 55,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6308"
+            }
+          ]
+        },
+        {
+          "itemId": 6289,
+          "itemName": "Raw Longjaw Mud Snapper",
+          "maxSkill": 150,
+          "minSkill": 55,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6289"
+            }
+          ]
+        },
+        {
+          "itemId": 21071,
+          "itemName": "Raw Sagefish",
+          "maxSkill": 150,
+          "minSkill": 55,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=21071"
+            }
+          ]
+        }
+      ],
+      "id": 49,
+      "name": "Stonetalon Mountains"
+    },
+    {
+      "category": "Kalimdor",
+      "expansion": "classic",
+      "externalId": 440,
+      "fish": [
+        {
+          "itemId": 6359,
+          "itemName": "Firefin Snapper",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6359"
+            }
+          ]
+        },
+        {
+          "itemId": 6358,
+          "itemName": "Oily Blackmouth",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6358"
+            }
+          ]
+        },
+        {
+          "itemId": 13754,
+          "itemName": "Raw Glossy Mightfish",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13754"
+            }
+          ]
+        },
+        {
+          "itemId": 6362,
+          "itemName": "Raw Rockscale Cod",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6362"
+            }
+          ]
+        },
+        {
+          "itemId": 4603,
+          "itemName": "Raw Spotted Yellowtail",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=4603"
+            }
+          ]
+        },
+        {
+          "itemId": 13756,
+          "itemName": "Raw Summer Bass",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13756"
+            }
+          ]
+        },
+        {
+          "itemId": 13422,
+          "itemName": "Stonescale Eel",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13422"
+            }
+          ]
+        },
+        {
+          "itemId": 13755,
+          "itemName": "Winter Squid",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13755"
+            }
+          ]
+        }
+      ],
+      "id": 50,
+      "name": "Tanaris"
+    },
+    {
+      "category": "Kalimdor",
+      "expansion": "classic",
+      "externalId": 141,
+      "fish": [
+        {
+          "itemId": 6291,
+          "itemName": "Raw Brilliant Smallfish",
+          "maxSkill": 25,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6291"
+            }
+          ]
+        },
+        {
+          "itemId": 6289,
+          "itemName": "Raw Longjaw Mud Snapper",
+          "maxSkill": 25,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6289"
+            }
+          ]
+        },
+        {
+          "itemId": 6303,
+          "itemName": "Raw Slitherskin Mackerel",
+          "maxSkill": 25,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6303"
+            }
+          ]
+        }
+      ],
+      "id": 51,
+      "name": "Teldrassil"
+    },
+    {
+      "category": "Kalimdor",
+      "expansion": "classic",
+      "externalId": 17,
+      "fish": [
+        {
+          "itemId": 6522,
+          "itemName": "Deviate Fish",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6522"
+            }
+          ]
+        },
+        {
+          "itemId": 6358,
+          "itemName": "Oily Blackmouth",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6358"
+            }
+          ]
+        },
+        {
+          "itemId": 6291,
+          "itemName": "Raw Brilliant Smallfish",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6291"
+            }
+          ]
+        },
+        {
+          "itemId": 6289,
+          "itemName": "Raw Longjaw Mud Snapper",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6289"
+            }
+          ]
+        },
+        {
+          "itemId": 6361,
+          "itemName": "Raw Rainbow Fin Albacore",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6361"
+            }
+          ]
+        },
+        {
+          "itemId": 6303,
+          "itemName": "Raw Slitherskin Mackerel",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6303"
+            }
+          ]
+        }
+      ],
+      "id": 52,
+      "name": "The Barrens"
+    },
+    {
+      "category": "Kalimdor",
+      "expansion": "classic",
+      "externalId": 400,
+      "fish": [
+        {
+          "itemId": 6308,
+          "itemName": "Raw Bristle Whisker Catfish",
+          "maxSkill": 225,
+          "minSkill": 130,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6308"
+            }
+          ]
+        },
+        {
+          "itemId": 8365,
+          "itemName": "Raw Mithril Head Trout",
+          "maxSkill": 225,
+          "minSkill": 130,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=8365"
+            }
+          ]
+        }
+      ],
+      "id": 53,
+      "name": "Thousand Needles"
+    },
+    {
+      "category": "Kalimdor",
+      "expansion": "classic",
+      "externalId": 1638,
+      "fish": [
+        {
+          "itemId": 6291,
+          "itemName": "Raw Brilliant Smallfish",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6291"
+            }
+          ]
+        },
+        {
+          "itemId": 6308,
+          "itemName": "Raw Bristle Whisker Catfish",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6308"
+            }
+          ]
+        },
+        {
+          "itemId": 6289,
+          "itemName": "Raw Longjaw Mud Snapper",
+          "maxSkill": 75,
+          "minSkill": 1,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6289"
+            }
+          ]
+        }
+      ],
+      "id": 54,
+      "name": "Thunder Bluff"
+    },
+    {
+      "category": "Kalimdor",
+      "expansion": "classic",
+      "externalId": 490,
+      "fish": [
+        {
+          "itemId": 13757,
+          "itemName": "Lightning Eel",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13757"
+            }
+          ]
+        },
+        {
+          "itemId": 6358,
+          "itemName": "Oily Blackmouth",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=6358"
+            }
+          ]
+        },
+        {
+          "itemId": 8365,
+          "itemName": "Raw Mithril Head Trout",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=8365"
+            }
+          ]
+        },
+        {
+          "itemId": 13759,
+          "itemName": "Raw Nightfin Snapper",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13759"
+            }
+          ]
+        },
+        {
+          "itemId": 13758,
+          "itemName": "Raw Redgill",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13758"
+            }
+          ]
+        },
+        {
+          "itemId": 13760,
+          "itemName": "Raw Sunscale Salmon",
+          "maxSkill": 300,
+          "minSkill": 205,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13760"
+            }
+          ]
+        }
+      ],
+      "id": 55,
+      "name": "Un'goro Crater"
+    },
+    {
+      "category": "Kalimdor",
+      "expansion": "classic",
+      "externalId": 618,
+      "fish": [
+        {
+          "itemId": 13757,
+          "itemName": "Lightning Eel",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13757"
+            }
+          ]
+        },
+        {
+          "itemId": 13890,
+          "itemName": "Plated Armorfish",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13890"
+            }
+          ]
+        },
+        {
+          "itemId": 13759,
+          "itemName": "Raw Nightfin Snapper",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13759"
+            }
+          ]
+        },
+        {
+          "itemId": 13758,
+          "itemName": "Raw Redgill",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13758"
+            }
+          ]
+        },
+        {
+          "itemId": 13760,
+          "itemName": "Raw Sunscale Salmon",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13760"
+            }
+          ]
+        },
+        {
+          "itemId": 13889,
+          "itemName": "Raw Whitescale Salmon",
+          "maxSkill": 425,
+          "minSkill": 330,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=13889"
+            }
+          ]
+        }
+      ],
+      "id": 56,
+      "name": "Winterspring"
+    },
+    {
+      "category": "Outland",
+      "expansion": "tbc",
+      "externalId": 3483,
+      "fish": [
+        {
+          "itemId": 27422,
+          "itemName": "Barbed Gill Trout",
+          "maxSkill": 375,
+          "minSkill": 280,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=27422"
+            }
+          ]
+        },
+        {
+          "itemId": 27441,
+          "itemName": "Felblood Snapper",
+          "maxSkill": 375,
+          "minSkill": 280,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=27441"
+            }
+          ]
+        },
+        {
+          "itemId": 34867,
+          "itemName": "Monstrous Felblood Snapper",
+          "maxSkill": 375,
+          "minSkill": 280,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=34867"
+            }
+          ]
+        }
+      ],
+      "id": 57,
+      "name": "Hellfire Peninsula"
+    },
+    {
+      "category": "Outland",
+      "expansion": "tbc",
+      "externalId": 3518,
+      "fish": [
+        {
+          "itemId": 27422,
+          "itemName": "Barbed Gill Trout",
+          "maxSkill": 490,
+          "minSkill": 395,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=27422"
+            }
+          ]
+        },
+        {
+          "itemId": 27435,
+          "itemName": "Figluster's Mudfish",
+          "maxSkill": 490,
+          "minSkill": 395,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=27435"
+            }
+          ]
+        },
+        {
+          "itemId": 27437,
+          "itemName": "Icefin Bluefish",
+          "maxSkill": 490,
+          "minSkill": 395,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=27437"
+            }
+          ]
+        },
+        {
+          "itemId": 27425,
+          "itemName": "Spotted Feltail",
+          "maxSkill": 490,
+          "minSkill": 395,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=27425"
+            }
+          ]
+        }
+      ],
+      "id": 58,
+      "name": "Nagrand"
+    },
+    {
+      "category": "Outland",
+      "expansion": "tbc",
+      "externalId": 3523,
+      "fish": [
+        {
+          "itemId": 27422,
+          "itemName": "Barbed Gill Trout",
+          "maxSkill": 475,
+          "minSkill": 380,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=27422"
+            }
+          ]
+        },
+        {
+          "itemId": 27435,
+          "itemName": "Figluster's Mudfish",
+          "maxSkill": 475,
+          "minSkill": 380,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=27435"
+            }
+          ]
+        },
+        {
+          "itemId": 27437,
+          "itemName": "Icefin Bluefish",
+          "maxSkill": 475,
+          "minSkill": 380,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=27437"
+            }
+          ]
+        }
+      ],
+      "id": 59,
+      "name": "Netherstorm"
+    },
+    {
+      "category": "Outland",
+      "expansion": "tbc",
+      "externalId": 3520,
+      "fish": [
+        {
+          "itemId": 27441,
+          "itemName": "Felblood Snapper",
+          "maxSkill": 375,
+          "minSkill": 280,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=27441"
+            }
+          ]
+        },
+        {
+          "itemId": 34867,
+          "itemName": "Monstrous Felblood Snapper",
+          "maxSkill": 375,
+          "minSkill": 280,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=34867"
+            }
+          ]
+        }
+      ],
+      "id": 60,
+      "name": "Shadowmoon Valley"
+    },
+    {
+      "category": "Outland",
+      "expansion": "tbc",
+      "externalId": 3519,
+      "fish": [
+        {
+          "itemId": 27422,
+          "itemName": "Barbed Gill Trout",
+          "maxSkill": 500,
+          "minSkill": 405,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=27422"
+            }
+          ]
+        },
+        {
+          "itemId": 27439,
+          "itemName": "Furious Crawdad",
+          "maxSkill": 500,
+          "minSkill": 405,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=27439"
+            }
+          ]
+        },
+        {
+          "itemId": 27438,
+          "itemName": "Golden Darter",
+          "maxSkill": 500,
+          "minSkill": 405,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=27438"
+            }
+          ]
+        },
+        {
+          "itemId": 27388,
+          "itemName": "Mr. Pinchy",
+          "maxSkill": 500,
+          "minSkill": 405,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=27388"
+            }
+          ]
+        },
+        {
+          "itemId": 27425,
+          "itemName": "Spotted Feltail",
+          "maxSkill": 500,
+          "minSkill": 405,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=27425"
+            }
+          ]
+        }
+      ],
+      "id": 61,
+      "name": "Terokkar Forest"
+    },
+    {
+      "category": "Outland",
+      "expansion": "tbc",
+      "externalId": 3521,
+      "fish": [
+        {
+          "itemId": 27422,
+          "itemName": "Barbed Gill Trout",
+          "maxSkill": 450,
+          "minSkill": 355,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=27422"
+            }
+          ]
+        },
+        {
+          "itemId": 27438,
+          "itemName": "Golden Darter",
+          "maxSkill": 450,
+          "minSkill": 355,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=27438"
+            }
+          ]
+        },
+        {
+          "itemId": 27425,
+          "itemName": "Spotted Feltail",
+          "maxSkill": 450,
+          "minSkill": 355,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=27425"
+            }
+          ]
+        },
+        {
+          "itemId": 27429,
+          "itemName": "Zangarian Sporefish",
+          "maxSkill": 450,
+          "minSkill": 355,
+          "phase": "tbc",
+          "sources": [
+            {
+              "label": "wowhead",
+              "url": "https://www.wowhead.com/classic/item=27429"
+            }
+          ]
+        }
+      ],
+      "id": 62,
+      "name": "Zangarmarsh"
+    }
+  ]
+}

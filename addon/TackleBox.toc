@@ -1,0 +1,8 @@
+## Interface: 20505
+## Title: Tackle Box
+## Notes: Fishing locations and fish by zone for TBC Classic.
+## Author: Tackle Box
+## Version: 0.1.0
+
+Data/FishingData.lua
+TackleBox.lua

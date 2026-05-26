@@ -1,0 +1,11 @@
+data/*.sqlite
+data/*.sqlite-*
+dist/
+__pycache__/
+*.pyc
+.idea
+.idea/
+venv/
+.venv/
+**/venv/
+**/.venv/
