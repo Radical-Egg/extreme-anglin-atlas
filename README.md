@@ -15,6 +15,8 @@ Project Structure:
 - `scripts/extremeanglinatlas_data.py` builds CSV-derived runtime data.
 - `scripts/grab_a_fish.py` and `scripts/grab_a_zone.py` refresh saved WowWiki page captures.
 - `scripts/package_addon.py` creates the release zip.
+- `doc/CHANGELOG.md` tracks release history.
+- `doc/release-notes/` contains publish-ready release notes.
 
 ## Setup
 
