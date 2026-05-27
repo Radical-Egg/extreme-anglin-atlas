@@ -1,6 +1,8 @@
 # Extreme Anglin' Atlas
+<img src="./assets/Thumbnail.PNG" alt="Extreme Anglin' Atlas" width="200" height="200">
 
 Extreme Anglin' Atlas is a World of Warcraft TBC Classic addon for browsing fishing locations and the fish available in each zone.
+
 
 Project Structure:
 
@@ -77,7 +79,3 @@ Run the same checks used by CI with:
 ```sh
 make check
 ```
-
-## Release
-
-Publishing a GitHub release runs `.github/workflows/build_and_release.yml`. The workflow builds the addon zip and uploads `dist/*.zip` to the release page.
