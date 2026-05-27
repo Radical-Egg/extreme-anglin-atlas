@@ -15,6 +15,10 @@ DEFAULT_OUT_DIR = ROOT / "dist"
 PACKAGE_NAME = "ExtremeAnglinAtlas"
 EXCLUDED_SUFFIXES = {".json"}
 EXCLUDED_NAMES = {".gitkeep"}
+EXTRA_PACKAGE_FILES = {
+    ROOT / "LICENSE": Path("LICENSE"),
+    ROOT / "assets" / "Thumbnail.PNG": Path("Thumbnail.PNG"),
+}
 
 
 def package_addon(args: argparse.Namespace) -> None:
@@ -33,6 +37,12 @@ def package_addon(args: argparse.Namespace) -> None:
 
             relative_path = path.relative_to(args.addon_dir)
             archive.write(path, Path(PACKAGE_NAME) / relative_path)
+
+        for source_path, relative_path in EXTRA_PACKAGE_FILES.items():
+            if not source_path.exists():
+                raise SystemExit(f"Missing required package file: {source_path}")
+
+            archive.write(source_path, Path(PACKAGE_NAME) / relative_path)
 
     print(f"Packaged {archive_path}")
 
